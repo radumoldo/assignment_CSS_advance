@@ -1,0 +1,26 @@
+a[href^="https://www.google.com"]:link {
+    color: green;
+}
+
+a[href="https://www.link-group.eu/"]:link {
+    color: red;
+}
+
+#second-div > p:nth-child(2n+1){
+  color: blue;
+}
+
+#second-div > p:nth-child(2n+2){
+  color: red;
+}
+
+#first-div > p::after {
+  content: " - NEW";
+  color: yellow;
+  font-style: italic;
+}
+
+p:nth-child(8):hover {
+  font-style: italic;
+  cursor:none;
+}
